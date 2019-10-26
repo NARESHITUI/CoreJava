@@ -1,0 +1,32 @@
+Java | Access Modifiers
+=======================
+(1) First Level class or an interface cannot be declared as "private" or "protected" [Not inner classes].
+
+(2) If the constructor is private, you cannot create the instance of that class from outside the class. 
+
+(3) If a member data or a method is declared as "private" then they can be accessed only within the class where it is declared. 
+
+(4) When no access modifier is defined, then it is said to have default access modifer. 
+The default modifier is accessible only within the same package. 
+
+(5) When a member is declared as "protected" then it is visible to all the classes in the same package and all its child classes in different packages
+
+(6) A constructor, member data, method, inner class can be declared as "protected"
+
+
+(7) "public" access specified classes and members can be accessed from anywhere. 
+
+(8) When you override a method in child class , the access modifier of the method in child class should be similar or should have higher degree of accessibility
+
+- methods declared as "public" in a class must be "public" in all its child classes.
+
+- methods declared as "protected" in a class must either be "protected" or "public" in child classes
+
+- methods declared "private" are not inherited at all, so there is no rule for them.
+
+(9) In a java program if there exists any class with the modifier of "public" then that program should be saved with the name of that class only. 
+
+(10) In a java program it is not possible to have more than one class with the access modifier of "public".
+
+(11) The default access modifier of Java is "private to package"
+
